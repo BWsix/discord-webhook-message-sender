@@ -6,6 +6,10 @@
   "bin": {
     "discord-webhook-message-sender": "./dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BWsix/discord-webhook-message-sender"
+  },
   "scripts": {
     "start": "node dist/index.js",
     "dev": "tsc -w"
@@ -15,6 +19,9 @@
   ],
   "author": "BWsix(VFLC)",
   "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
   "devDependencies": {
     "@types/inquirer": "^8.2.1",
     "typescript": "^4.7.2"
